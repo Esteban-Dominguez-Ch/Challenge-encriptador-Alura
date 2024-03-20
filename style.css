@@ -104,3 +104,62 @@ main{
     font-size: 13px;
     margin: 20px;
 }
+
+@media screen and (max-width:480px){/*si se encuentra una pantalla de hasta 480px*/
+    *{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 80%; 
+    }
+    
+    .logo{
+        padding-top: 20px;
+        margin-left: 25px;
+        width: 6%;
+    }
+    
+    main{
+        display: block;
+        margin-bottom: 8px;
+        margin-left: 10px;
+    
+    }
+    
+    .area-texto{
+        height: 300px;
+        width: 350px;
+        margin-top: 90px; 
+
+    }
+
+    .informacion{
+        font-size: 15px;
+    }
+
+    .mensaje{
+        margin-left: 5px;
+        margin-top: 90px;
+        padding-left: 5px;
+        height: 440px;
+        width: 400px;
+        
+    }
+    .btn-desencriptar{
+        height: 60px;
+        margin-left: 15px;
+        width: 300px;
+    }
+    
+    .btn-encriptar{
+        height: 60px;
+        margin-left: 15px;
+        width: 300px;
+    }
+
+    .btn-copiar{
+        height: 67px;
+        margin-left: 5%;
+        width: 328px;
+    }
+
+}
