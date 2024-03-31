@@ -51,11 +51,11 @@ function btnDesencriptar() {
 
 function desencriptar(textoDesencriptado) {
     let matrizCodigo = [
-        ["e", "enter"],
-        ["i", "imes"],
-        ["a", "ai"],
-        ["o", "ober"],
         ["u", "ufat"],
+        ["o", "ober"],
+        ["a", "ai"],
+        ["i", "imes"],
+        ["e", "enter"],
     ];
 
     for (let i = 0; i < matrizCodigo.length; i++) {
